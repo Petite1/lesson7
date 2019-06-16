@@ -1,0 +1,124 @@
+body {
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+
+ header .wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(to top right, #a07094 9%, #111 100%);
+}
+
+header img {
+    margin-left: 50px;
+}
+
+header a {
+    margin-right: 50px;
+    text-decoration: none;
+}
+
+menu {
+    margin:0;
+     background: linear-gradient(to top right, #a07094 9%, #111 100%);
+    
+    padding: 0;
+    
+}
+
+
+
+menu ul {
+    
+    padding:0;
+    margin:0;
+    
+}
+
+
+menu li   {
+    list-style: none;
+    text-transform: uppercase;
+    padding: 5px 8px;    
+    transition:   .5s;
+}
+
+menu li a {
+    text-decoration: none;
+    color: #eec7de;
+    P
+
+    
+}
+
+menu li:hover {
+    background: black;
+    
+    
+    
+}
+
+header menu ul {
+    display: flex;
+    justify-content: space-between;
+    background: aqua;
+}
+
+main{
+    display: flex;  
+    justify-content: space-between; 
+    background: url('https://html-templates.info/images/pages/140520040122.jpg')
+    
+    
+}
+
+aside {
+    min-width: 300px;
+    text-align: center;
+    margin-top: 100px;
+    
+}
+
+aside menu {
+    border-radius: 30px;
+}
+aside menu li:first-child{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+aside menu li:last-child{
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+aside menu li:hover {
+    padding: 20px 0;
+
+}
+
+.content {
+    margin-top: 16px;
+    padding:0 16px;
+}
+
+
+main section h1 {
+    text-align: center;
+}
+
+main section h1, p {
+    color: white;
+}
+ 
+footer p{
+    height: 100px;
+ text-align: center;
+ background: linear-gradient(to top right, #a07094 9%, #111 100%);
+ line-height: 100px;
+ margin: 0;
+}
+
